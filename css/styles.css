@@ -53,6 +53,10 @@ body {
     box-shadow: 0 .125rem .25rem red;
 }
 
+.mw-1920 {
+    max-width: 1920px;
+}
+
 #logo {
     width: 120px;
     height: 34px;
@@ -180,7 +184,7 @@ textarea {
     }
 
     #seccion-suscripcion {
-        background-image: url("/img/background-form-lg.jpg");
+        background-image: url("../img/background-form-lg.jpg");
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -190,7 +194,7 @@ textarea {
 @media (min-width: 1400px) {
 
     #seccion-suscripcion {
-        background-image: url("/img/background-form.jpg");
+        background-image: url("../img/background-form.jpg");
         background-repeat: no-repeat;
         background-position: right;
     }
